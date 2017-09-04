@@ -1,5 +1,9 @@
-TYPE = {
+__author__ = __maintainer__ = "Helder Moreira"
+__license__ = "MIT"
+__version__ = "1.0.0"
+
 #	TYPE						:	[IPSO OBJ, SIZE(S)]
+TYPE = {
 	'LPP_DIGITAL_INPUT'			:	[3200, 	1		],
 	'LPP_DIGITAL_OUTPUT'		:	[3201, 	1		],
 	'LPP_ANALOG_INPUT'			:	[3202, 	2		],
