@@ -107,7 +107,7 @@ class CayenneLPP(object):
     def addBarometricPressure(self, channel, value):
         return self._add_to_buffer('LPP_BAROMETRIC_PRESSURE',
                                    channel,
-                                   round(value, 1) * 10)
+                                   round(value, 1) * 0.1)
 
     def addAccelerometer(self, channel, x, y, z):
         return self._add_to_buffer('LPP_ACCELEROMETER',
